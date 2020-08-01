@@ -15,14 +15,14 @@ public class login
 {
 	public static void main(String[] args) 
 	{
-		int str1 = 123456;
+		String str1 = "123456";
 		Scanner sc = new Scanner(System.in);
 		int count = 0;
 		System.out.println("请输入密码：");
 		while(count < 3)
 		{
-			int str = sc.nextInt();
-			if(str == str1)
+			String str = sc.next();
+			if(str.equals(str1))
 			{
 				count++;
 				break;

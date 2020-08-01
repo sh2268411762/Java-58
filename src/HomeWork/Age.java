@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Age 
 {
 	@SuppressWarnings("resource")
-	public static void main(String[] args) 
+	public static void main(String[] args) //main函数的参数叫做运行时参数
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("请输入年龄：");

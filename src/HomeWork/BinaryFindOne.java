@@ -26,6 +26,16 @@ public class BinaryFindOne
 		}
 		return sum;
 	}
+	private static int fun(int n)
+	{
+		int sum = 0;
+		while(n != 0)
+		{
+			sum++;
+			n = n & (n - 1);
+		}
+		return sum;
+	}
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);

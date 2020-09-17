@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="0914_58.cpp" />
     <ClCompile Include="0916_58.cpp" />
+    <ClCompile Include="0917_58.cpp" />
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
     <ClCompile Include="C++（58）.c" />
